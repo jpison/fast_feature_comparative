@@ -51,8 +51,6 @@ HYBparsimony_model.fit(X, y)
 print(HYBparsimony_model.best_complexity, HYBparsimony_model.best_score, HYBparsimony_model.minutes_total)
 
 ```
-to include HYBparsimony.
-
 
 
 The model used for regression is `statsmodels.api.OLS()`. The objective function used to select the best features is BIC, or the Bayesian Information Criterion - less is better.
