@@ -41,7 +41,7 @@ HYBparsimony_model = HYBparsimony(fitness=fitness_custom,
                                 features=X.columns,
                                 rerank_error=1.0, #Diff between bics to promote parsimonious solution
                                 seed_ini=0,
-                                npart=num_indiv_hyb, #Population 1000 individuals
+                                npart=num_indiv_hyb, #Population 20 individuals
                                 maxiter=10000,
                                 early_stop=500,
                                 verbose=0,
